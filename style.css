@@ -1,0 +1,66 @@
+*{
+    margin: 0.3cm;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #00ff00;
+    margin-left: 5%;
+    
+   
+}
+
+a:link{
+    color:#ff00ff;
+}
+
+a:visited{
+color: #f0ff00;
+}
+
+.pics{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    
+}
+
+.details{
+    justify-content: baseline;
+    color: #ffffff;
+}
+
+body{
+    background-image: url("http://www.pixelstalk.net/wp-content/uploads/2016/06/Best-Images-Night-Sky.jpg");
+    
+}
+
+.end{
+    background-color: yellow;
+}
+
+.menu A{
+    border: solid;
+    padding: 0.3cm
+}
+
+.item{
+    position: relative;
+}
+
+.item p{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%);
+   opacity: 0;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.4;
+}
